@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login</title>
+	<style> 
+	.body{
+
+		box-sizing: border-box;
+		border: 50px solid;
+		margin-bottom: 50px;
+
+		
+	}
+	.container{
+		width: 20px;
+		height: 20px;
+		margin-right: 50%;
+		margin-left: 50%;
+       
+		
+
+		}
+
+		.h1{
+		text-align: center;
+		}
+
+	.form{
+		font-size: 50px;
+		border: 5px solid;
+		border-radius: 5px solid;
+		width: 20px;
+		height: 20px;
+		text-align: center;
+		margin: 12px;
+		border-style: double;
+		background-color: rgb(71, 148, 0);
+		padding-bottom: 200px;
+		margin-left: 700px;
+        margin-right: 700px;
+        color: red;
+		
+	}	
+
+
+	.button [onclick="submit"]{
+		font-size: 20px;
+		background: deepskyblue;
+
+		
+	}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+	<form action ="login.php" method="post">
+	<h1>login</h1>
+	<div class="form-grup">
+	<label for="username">username</label><br>
+	<br><input type="username" id="username" name="username" required><br>
+	<div class="form-grup">
+	<br><label for="username">password</label><br>
+	<br><input type="password" id="password"name="password" required><br>
+	<div class="button">
+	<br><button onclick="submit"  value="submit" >submit</button><br>
+</form>
+
+	</div>
+</div>
+</div>
+</div>
+
+</body>
+
+</html>

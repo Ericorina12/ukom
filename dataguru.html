@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form data guru</title>
+	<style> 
+	.container{
+		border: 100%;
+		border-radius: 100%;
+		position: center;
+		}
+	.form-grup{
+		font-size: 20px;
+	}	
+
+	.form-grup1 [type = 'submit']{
+		font-size: 20px;
+	}	
+	</style>
+</head>
+<body>
+	<div class="container">
+
+	<form action ="dataguru.html" method="post">
+	<h1>form data guru</h1>
+
+
+	<div class="form-grup">
+	<label for="nip">nip</label><br>
+	<br><input type="text" id="nis" name="nis" required><br>
+
+	<div class="form-grup">
+	<br><label for="username">nama</label><br>
+	<br><input type="username" id="username"name="username" required><br>
+
+    <div class="form-grup">
+	<label for="tempat lahir">tempat lahir</label><br>
+	<br><input type="text" id="tempatlahir" name="tempatlahir" required><br>
+
+	<div class="form-grup">
+	<br><label for="tanggallahir">tanggal lahir</label><br>
+	<br><input type="text" id="tanggallahir"name="tanggallahir" required><br>
+
+	<div class="form-grup">
+	<br><label for="agama">agama</label><br>
+	<br><input type="text" id="agama"name="agama" required><br>
+
+	<div class="form-grup">
+	<label for="status">status</label><br>
+	<br><input type="text" id="status" name="status" required><br>
+
+	<div class="form-grup">
+	<br><label for="alamat">alamat</label><br>
+	<br><input type="text" id="alamat"name="alamat" required><br>
+
+	<div class="form-grup">
+	<label for="nama perguruan">nama perguruan</label><br>
+	<br><input type="text" id="nama perguruan" name="nama perguruan" required><br>
+
+	<div class="form-grup">
+	<br><label for="ijazah">ijazah</label><br>
+	<br><input type="text" id="ijazah"name="ijazah" required><br>
+
+	<div class="form-grup">
+	<label for="lulus">lulus</label><br>
+	<br><input type="text" id="lulus" name="lulus" required><br>
+
+	<div class="form-grup">
+	<br><label for="golongan">golongan</label><br>
+	<br><input type="text" id="golongan"name="golongan" required><br>
+
+	<div class="form-grup">
+	<label for="keterangan">keterangan</label><br>
+	<br><input type="text" id="keterangan" name="keterangan" required><br>
+	<div class="form-grup">
+	
+
+	<div class="form-grup1">
+	<br><button onclick="submit" id="submit" required>submit</button><br>
+	</form>
+    <br>
+	<table border="1">
+		<tr>
+		<th>nama</th> 
+		<th>tempat lahir</th>
+		<th>tanggal lahir</th>
+		<th>agama</th>
+		<th>status</th>
+		<th>alamat</th>
+		<th>nama perguruan</th>
+		<th>ijazah</th>
+		<th>lulus</th>
+		<th>golongan</th>
+		<th>keterangan</th>
+		<th>aksi</th>
+	</tr>
+	</table>
+
+
+	<br><button type="logout" a href='logout.php'>logout</button><br>
+
+
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>
